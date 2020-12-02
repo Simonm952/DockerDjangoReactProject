@@ -30,6 +30,7 @@ export default function TopBar(props) {
           <Typography variant="h6" className={classes.title}>
             Iris Species Predictor
           </Typography>
+          {props.isAuthenticated ? <Button color="inherit" href="/update_password">Update Password</Button> : null}
           {props.isAuthenticated ? <Button color="inherit" onClick={()=>props.logout()}>Logout</Button> : null}
         </Toolbar>
       </AppBar>
