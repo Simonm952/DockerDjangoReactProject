@@ -53,7 +53,7 @@ const authLogoutReducer = (state, action) => {
 }
 
 // ########################################################
-// The Main Reducer
+// The Main Reducer test
 // ########################################################
 
 const Reducer = (state=initialState, action) => {
